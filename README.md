@@ -34,12 +34,10 @@ MONGO_INITDB_ROOT_PASSWORD: example
 //Устанавливаем
 docker-compose up
 
-docker-compose up --build
-
-//это
+//лучше с переустановкой и установкой
 docker-compose up --build -d
 
 //сносим все
 docker-compose down
-
+//логи
 docker-compose logs -f

@@ -102,3 +102,491 @@
 2021/10/12 07:27:50 [notice] 1#1: start worker process 23
 2021/10/12 07:27:50 [notice] 1#1: start worker process 24
 2021/10/12 07:27:50 [notice] 1#1: start worker process 25
+2021/10/12 07:32:25 [error] 22#22: *1 directory index of "/var/www/hello.test/" is forbidden, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", host: "hello.test:8000"
+2021/10/12 07:40:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 07:40:51 [notice] 22#22: gracefully shutting down
+2021/10/12 07:40:51 [notice] 23#23: gracefully shutting down
+2021/10/12 07:40:51 [notice] 23#23: exiting
+2021/10/12 07:40:51 [notice] 23#23: exit
+2021/10/12 07:40:51 [notice] 24#24: gracefully shutting down
+2021/10/12 07:40:51 [notice] 25#25: gracefully shutting down
+2021/10/12 07:40:51 [notice] 22#22: exiting
+2021/10/12 07:40:51 [notice] 22#22: exit
+2021/10/12 07:40:51 [notice] 24#24: exiting
+2021/10/12 07:40:51 [notice] 25#25: exiting
+2021/10/12 07:40:51 [notice] 24#24: exit
+2021/10/12 07:40:51 [notice] 25#25: exit
+2021/10/12 07:40:51 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 07:40:51 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 07:40:51 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 07:40:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 07:40:51 [notice] 1#1: worker process 22 exited with code 0
+2021/10/12 07:40:51 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 07:40:51 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 07:40:51 [notice] 1#1: exit
+2021/10/12 07:43:11 [notice] 1#1: using the "epoll" event method
+2021/10/12 07:43:11 [notice] 1#1: nginx/1.21.3
+2021/10/12 07:43:11 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 07:43:11 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 07:43:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 07:43:11 [notice] 1#1: start worker processes
+2021/10/12 07:43:11 [notice] 1#1: start worker process 23
+2021/10/12 07:43:11 [notice] 1#1: start worker process 24
+2021/10/12 07:43:11 [notice] 1#1: start worker process 25
+2021/10/12 07:43:11 [notice] 1#1: start worker process 26
+2021/10/12 07:45:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 07:45:25 [notice] 23#23: gracefully shutting down
+2021/10/12 07:45:25 [notice] 23#23: exiting
+2021/10/12 07:45:25 [notice] 25#25: gracefully shutting down
+2021/10/12 07:45:25 [notice] 24#24: gracefully shutting down
+2021/10/12 07:45:25 [notice] 24#24: exiting
+2021/10/12 07:45:25 [notice] 26#26: gracefully shutting down
+2021/10/12 07:45:25 [notice] 23#23: exit
+2021/10/12 07:45:25 [notice] 25#25: exiting
+2021/10/12 07:45:25 [notice] 25#25: exit
+2021/10/12 07:45:25 [notice] 24#24: exit
+2021/10/12 07:45:25 [notice] 26#26: exiting
+2021/10/12 07:45:25 [notice] 26#26: exit
+2021/10/12 07:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 07:45:25 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 07:45:25 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 07:45:25 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 07:45:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 07:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 07:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/12 07:45:25 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 07:45:25 [notice] 1#1: exit
+2021/10/12 07:53:21 [notice] 1#1: using the "epoll" event method
+2021/10/12 07:53:21 [notice] 1#1: nginx/1.21.3
+2021/10/12 07:53:21 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 07:53:21 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 07:53:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 07:53:21 [notice] 1#1: start worker processes
+2021/10/12 07:53:21 [notice] 1#1: start worker process 25
+2021/10/12 07:53:21 [notice] 1#1: start worker process 26
+2021/10/12 07:53:21 [notice] 1#1: start worker process 27
+2021/10/12 07:53:21 [notice] 1#1: start worker process 28
+2021/10/12 08:16:29 [error] 26#26: *13 FastCGI sent in stderr: "PHP message: 2021-10-12T08:16:29+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 08:36:14 [error] 25#25: *15 FastCGI sent in stderr: "PHP message: 2021-10-12T08:36:14+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 08:37:37 [error] 25#25: *15 FastCGI sent in stderr: "PHP message: 2021-10-12T08:37:37+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 08:39:04 [error] 25#25: *15 FastCGI sent in stderr: "PHP message: 2021-10-12T08:39:04+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 08:41:48 [error] 25#25: *23 FastCGI sent in stderr: "PHP message: 2021-10-12T08:41:48+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 08:43:48 [error] 25#25: *26 FastCGI sent in stderr: "PHP message: 2021-10-12T08:43:48+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 08:59:52 [error] 26#26: *29 FastCGI sent in stderr: "PHP message: 2021-10-12T08:59:52+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 09:11:12 [error] 25#25: *35 FastCGI sent in stderr: "PHP message: 2021-10-12T09:11:12+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 09:29:50 [error] 26#26: *39 FastCGI sent in stderr: "PHP message: 2021-10-12T09:29:50+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 09:53:02 [error] 25#25: *42 FastCGI sent in stderr: "PHP message: 2021-10-12T09:53:02+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 09:54:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 09:54:07 [notice] 25#25: gracefully shutting down
+2021/10/12 09:54:07 [notice] 27#27: gracefully shutting down
+2021/10/12 09:54:07 [notice] 27#27: exiting
+2021/10/12 09:54:07 [notice] 28#28: gracefully shutting down
+2021/10/12 09:54:07 [notice] 26#26: gracefully shutting down
+2021/10/12 09:54:07 [notice] 27#27: exit
+2021/10/12 09:54:07 [notice] 28#28: exiting
+2021/10/12 09:54:07 [notice] 28#28: exit
+2021/10/12 09:54:07 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2021/10/12 09:54:07 [notice] 1#1: worker process 28 exited with code 0
+2021/10/12 09:54:07 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 09:54:07 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/10/12 09:54:07 [notice] 1#1: worker process 27 exited with code 0
+2021/10/12 09:54:07 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 09:54:17 [error] 25#25: *42 FastCGI sent in stderr: "PHP message: 2021-10-12T09:54:17+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "hello.test:8000"
+2021/10/12 09:54:17 [notice] 25#25: exiting
+2021/10/12 09:54:17 [notice] 25#25: exit
+2021/10/12 09:55:06 [notice] 1#1: using the "epoll" event method
+2021/10/12 09:55:06 [notice] 1#1: nginx/1.21.3
+2021/10/12 09:55:06 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 09:55:06 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 09:55:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 09:55:06 [notice] 1#1: start worker processes
+2021/10/12 09:55:06 [notice] 1#1: start worker process 22
+2021/10/12 09:55:06 [notice] 1#1: start worker process 23
+2021/10/12 09:55:06 [notice] 1#1: start worker process 24
+2021/10/12 09:55:06 [notice] 1#1: start worker process 25
+2021/10/12 09:55:44 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: 2021-10-12T09:55:44+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.6:9000", host: "hello.test:8000"
+2021/10/12 09:56:47 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: 2021-10-12T09:56:47+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.6:9000", host: "hello.test:8000"
+2021/10/12 09:59:21 [error] 22#22: *6 FastCGI sent in stderr: "PHP message: 2021-10-12T09:59:21+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.6:9000", host: "hello.test:8000"
+2021/10/12 10:10:12 [error] 23#23: *10 FastCGI sent in stderr: "PHP message: 2021-10-12T10:10:12+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.6:9000", host: "hello.test:8000"
+2021/10/12 10:17:19 [error] 22#22: *13 FastCGI sent in stderr: "PHP message: 2021-10-12T10:17:19+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.6:9000", host: "hello.test:8000"
+2021/10/12 10:20:31 [error] 22#22: *15 FastCGI sent in stderr: "PHP message: 2021-10-12T10:20:31+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.6:9000", host: "hello.test:8000"
+2021/10/12 10:26:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 10:26:35 [notice] 22#22: gracefully shutting down
+2021/10/12 10:26:35 [notice] 23#23: gracefully shutting down
+2021/10/12 10:26:35 [notice] 25#25: gracefully shutting down
+2021/10/12 10:26:35 [notice] 24#24: gracefully shutting down
+2021/10/12 10:26:35 [notice] 22#22: exiting
+2021/10/12 10:26:35 [notice] 23#23: exiting
+2021/10/12 10:26:35 [notice] 25#25: exiting
+2021/10/12 10:26:35 [notice] 24#24: exiting
+2021/10/12 10:26:35 [notice] 22#22: exit
+2021/10/12 10:26:35 [notice] 23#23: exit
+2021/10/12 10:26:35 [notice] 25#25: exit
+2021/10/12 10:26:35 [notice] 24#24: exit
+2021/10/12 10:26:35 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/10/12 10:26:35 [notice] 1#1: worker process 22 exited with code 0
+2021/10/12 10:26:35 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 10:26:35 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 10:26:35 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 10:26:35 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 10:26:35 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 10:26:35 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 10:26:36 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 10:26:36 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 10:26:36 [notice] 1#1: exit
+2021/10/12 10:35:10 [notice] 1#1: using the "epoll" event method
+2021/10/12 10:35:10 [notice] 1#1: nginx/1.21.3
+2021/10/12 10:35:10 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 10:35:10 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 10:35:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 10:35:10 [notice] 1#1: start worker processes
+2021/10/12 10:35:10 [notice] 1#1: start worker process 23
+2021/10/12 10:35:10 [notice] 1#1: start worker process 24
+2021/10/12 10:35:10 [notice] 1#1: start worker process 25
+2021/10/12 10:35:10 [notice] 1#1: start worker process 26
+2021/10/12 10:44:37 [error] 24#24: *1 FastCGI sent in stderr: "PHP message: 2021-10-12T10:44:37+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.5:9000", host: "hello.test:8000"
+2021/10/12 10:47:07 [error] 24#24: *4 FastCGI sent in stderr: "PHP message: 2021-10-12T10:47:07+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.5:9000", host: "hello.test:8000"
+2021/10/12 10:48:09 [error] 24#24: *4 FastCGI sent in stderr: "PHP message: 2021-10-12T10:48:09+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.5:9000", host: "hello.test:8000"
+2021/10/12 10:56:18 [error] 24#24: *10 FastCGI sent in stderr: "PHP message: 2021-10-12T10:56:18+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.5:9000", host: "hello.test:8000"
+2021/10/12 10:57:37 [error] 24#24: *10 FastCGI sent in stderr: "PHP message: 2021-10-12T10:57:37+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.23.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.5:9000", host: "hello.test:8000"
+2021/10/12 10:58:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 10:58:38 [notice] 26#26: gracefully shutting down
+2021/10/12 10:58:38 [notice] 24#24: gracefully shutting down
+2021/10/12 10:58:38 [notice] 25#25: gracefully shutting down
+2021/10/12 10:58:38 [notice] 25#25: exiting
+2021/10/12 10:58:38 [notice] 25#25: exit
+2021/10/12 10:58:38 [notice] 23#23: gracefully shutting down
+2021/10/12 10:58:38 [notice] 26#26: exiting
+2021/10/12 10:58:38 [notice] 23#23: exiting
+2021/10/12 10:58:38 [notice] 24#24: exiting
+2021/10/12 10:58:38 [notice] 26#26: exit
+2021/10/12 10:58:38 [notice] 23#23: exit
+2021/10/12 10:58:38 [notice] 24#24: exit
+2021/10/12 10:58:38 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 10:58:38 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 10:58:38 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 10:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/12 10:58:39 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 10:58:39 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 10:58:39 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 10:58:39 [notice] 1#1: exit
+2021/10/12 10:59:22 [notice] 1#1: using the "epoll" event method
+2021/10/12 10:59:22 [notice] 1#1: nginx/1.21.3
+2021/10/12 10:59:22 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 10:59:22 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 10:59:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 10:59:22 [notice] 1#1: start worker processes
+2021/10/12 10:59:22 [notice] 1#1: start worker process 23
+2021/10/12 10:59:22 [notice] 1#1: start worker process 24
+2021/10/12 10:59:22 [notice] 1#1: start worker process 25
+2021/10/12 10:59:22 [notice] 1#1: start worker process 26
+2021/10/12 11:00:04 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: 2021-10-12T11:00:04+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.24.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.7:9000", host: "hello.test:8000"
+2021/10/12 11:00:39 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: 2021-10-12T11:00:39+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.24.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.7:9000", host: "hello.test:8000"
+2021/10/12 11:03:41 [error] 23#23: *5 FastCGI sent in stderr: "PHP message: 2021-10-12T11:03:41+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.24.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.7:9000", host: "hello.test:8000"
+2021/10/12 11:05:02 [error] 23#23: *5 FastCGI sent in stderr: "PHP message: 2021-10-12T11:05:02+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.24.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.7:9000", host: "hello.test:8000"
+2021/10/12 11:06:09 [error] 23#23: *5 FastCGI sent in stderr: "PHP message: 2021-10-12T11:06:09+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.24.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.7:9000", host: "hello.test:8000"
+2021/10/12 11:07:07 [error] 23#23: *5 FastCGI sent in stderr: "PHP message: 2021-10-12T11:07:07+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.24.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.7:9000", host: "hello.test:8000"
+2021/10/12 11:07:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 11:07:33 [notice] 24#24: gracefully shutting down
+2021/10/12 11:07:33 [notice] 23#23: gracefully shutting down
+2021/10/12 11:07:33 [notice] 25#25: gracefully shutting down
+2021/10/12 11:07:33 [notice] 25#25: exiting
+2021/10/12 11:07:33 [notice] 26#26: gracefully shutting down
+2021/10/12 11:07:33 [notice] 24#24: exiting
+2021/10/12 11:07:33 [notice] 23#23: exiting
+2021/10/12 11:07:33 [notice] 25#25: exit
+2021/10/12 11:07:33 [notice] 26#26: exiting
+2021/10/12 11:07:33 [notice] 24#24: exit
+2021/10/12 11:07:33 [notice] 23#23: exit
+2021/10/12 11:07:33 [notice] 26#26: exit
+2021/10/12 11:07:33 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 11:07:33 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 11:07:33 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 11:07:33 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 11:07:33 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 11:07:33 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 11:07:33 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/12 11:07:33 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 11:07:33 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 11:07:33 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 11:07:33 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 11:07:33 [notice] 1#1: exit
+2021/10/12 11:08:45 [notice] 1#1: using the "epoll" event method
+2021/10/12 11:08:45 [notice] 1#1: nginx/1.21.3
+2021/10/12 11:08:45 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 11:08:45 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 11:08:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 11:08:45 [notice] 1#1: start worker processes
+2021/10/12 11:08:45 [notice] 1#1: start worker process 23
+2021/10/12 11:08:45 [notice] 1#1: start worker process 24
+2021/10/12 11:08:45 [notice] 1#1: start worker process 25
+2021/10/12 11:08:45 [notice] 1#1: start worker process 26
+2021/10/12 11:09:10 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: 2021-10-12T14:09:10+03:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.25.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.8:9000", host: "hello.test:8000"
+2021/10/12 11:10:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 11:10:20 [notice] 23#23: gracefully shutting down
+2021/10/12 11:10:20 [notice] 23#23: exiting
+2021/10/12 11:10:20 [notice] 25#25: gracefully shutting down
+2021/10/12 11:10:20 [notice] 24#24: gracefully shutting down
+2021/10/12 11:10:20 [notice] 24#24: exiting
+2021/10/12 11:10:20 [notice] 26#26: gracefully shutting down
+2021/10/12 11:10:20 [notice] 23#23: exit
+2021/10/12 11:10:20 [notice] 25#25: exiting
+2021/10/12 11:10:20 [notice] 25#25: exit
+2021/10/12 11:10:20 [notice] 24#24: exit
+2021/10/12 11:10:20 [notice] 26#26: exiting
+2021/10/12 11:10:20 [notice] 26#26: exit
+2021/10/12 11:10:20 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 11:10:20 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 11:10:20 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 11:10:20 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 11:10:20 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 11:10:20 [notice] 1#1: exit
+2021/10/12 11:11:59 [notice] 1#1: using the "epoll" event method
+2021/10/12 11:11:59 [notice] 1#1: nginx/1.21.3
+2021/10/12 11:11:59 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 11:11:59 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 11:11:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 11:11:59 [notice] 1#1: start worker processes
+2021/10/12 11:11:59 [notice] 1#1: start worker process 23
+2021/10/12 11:11:59 [notice] 1#1: start worker process 24
+2021/10/12 11:11:59 [notice] 1#1: start worker process 25
+2021/10/12 11:11:59 [notice] 1#1: start worker process 26
+2021/10/12 11:12:50 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: 2021-10-12T11:12:50+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.26.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.7:9000", host: "hello.test:8000"
+2021/10/12 11:26:02 [error] 23#23: *4 FastCGI sent in stderr: "PHP message: 2021-10-12T11:26:02+00:00 [critical] Uncaught Exception: Class "MongoDB\Driver\Monitoring\CommandSubscriber" not found while loading "Doctrine\Bundle\MongoDBBundle\APM\PSRCommandLogger"" while reading upstream, client: 172.26.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.7:9000", host: "hello.test:8000"
+2021/10/12 11:26:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 11:26:27 [notice] 23#23: gracefully shutting down
+2021/10/12 11:26:27 [notice] 25#25: gracefully shutting down
+2021/10/12 11:26:27 [notice] 25#25: exiting
+2021/10/12 11:26:27 [notice] 24#24: gracefully shutting down
+2021/10/12 11:26:27 [notice] 24#24: exiting
+2021/10/12 11:26:27 [notice] 26#26: gracefully shutting down
+2021/10/12 11:26:27 [notice] 25#25: exit
+2021/10/12 11:26:27 [notice] 24#24: exit
+2021/10/12 11:26:27 [notice] 26#26: exiting
+2021/10/12 11:26:27 [notice] 26#26: exit
+2021/10/12 11:26:27 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/12 11:26:27 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 11:26:27 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 11:26:27 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 11:26:27 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 11:26:36 [notice] 23#23: exiting
+2021/10/12 11:26:36 [notice] 23#23: exit
+2021/10/12 11:26:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 11:26:36 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 11:26:36 [notice] 1#1: exit
+2021/10/12 11:33:56 [notice] 1#1: using the "epoll" event method
+2021/10/12 11:33:56 [notice] 1#1: nginx/1.21.3
+2021/10/12 11:33:56 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 11:33:56 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 11:33:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 11:33:56 [notice] 1#1: start worker processes
+2021/10/12 11:33:56 [notice] 1#1: start worker process 22
+2021/10/12 11:33:56 [notice] 1#1: start worker process 23
+2021/10/12 11:33:56 [notice] 1#1: start worker process 24
+2021/10/12 11:33:56 [notice] 1#1: start worker process 25
+2021/10/12 11:35:19 [error] 23#23: *2 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.27.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.6:9000", host: "hello.test:8000"
+2021/10/12 11:40:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 11:40:49 [notice] 22#22: gracefully shutting down
+2021/10/12 11:40:49 [notice] 22#22: exiting
+2021/10/12 11:40:49 [notice] 23#23: gracefully shutting down
+2021/10/12 11:40:49 [notice] 25#25: gracefully shutting down
+2021/10/12 11:40:49 [notice] 24#24: gracefully shutting down
+2021/10/12 11:40:49 [notice] 22#22: exit
+2021/10/12 11:40:49 [notice] 23#23: exiting
+2021/10/12 11:40:49 [notice] 25#25: exiting
+2021/10/12 11:40:49 [notice] 24#24: exiting
+2021/10/12 11:40:49 [notice] 23#23: exit
+2021/10/12 11:40:49 [notice] 25#25: exit
+2021/10/12 11:40:49 [notice] 24#24: exit
+2021/10/12 11:40:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/10/12 11:40:49 [notice] 1#1: worker process 22 exited with code 0
+2021/10/12 11:40:49 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 11:40:49 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 11:40:49 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 11:40:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 11:40:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 11:40:49 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 11:40:49 [notice] 1#1: exit
+2021/10/12 11:41:41 [notice] 1#1: using the "epoll" event method
+2021/10/12 11:41:41 [notice] 1#1: nginx/1.21.3
+2021/10/12 11:41:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 11:41:41 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 11:41:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 11:41:41 [notice] 1#1: start worker processes
+2021/10/12 11:41:41 [notice] 1#1: start worker process 23
+2021/10/12 11:41:41 [notice] 1#1: start worker process 24
+2021/10/12 11:41:41 [notice] 1#1: start worker process 25
+2021/10/12 11:41:41 [notice] 1#1: start worker process 26
+2021/10/12 11:43:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 11:43:31 [notice] 23#23: gracefully shutting down
+2021/10/12 11:43:31 [notice] 23#23: exiting
+2021/10/12 11:43:31 [notice] 24#24: gracefully shutting down
+2021/10/12 11:43:31 [notice] 24#24: exiting
+2021/10/12 11:43:31 [notice] 26#26: gracefully shutting down
+2021/10/12 11:43:31 [notice] 26#26: exiting
+2021/10/12 11:43:31 [notice] 25#25: gracefully shutting down
+2021/10/12 11:43:31 [notice] 23#23: exit
+2021/10/12 11:43:31 [notice] 24#24: exit
+2021/10/12 11:43:31 [notice] 26#26: exit
+2021/10/12 11:43:31 [notice] 25#25: exiting
+2021/10/12 11:43:31 [notice] 25#25: exit
+2021/10/12 11:43:31 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 11:43:31 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 11:43:31 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 11:43:31 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 11:43:31 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 11:43:31 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 11:43:31 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 11:43:31 [notice] 1#1: exit
+2021/10/12 11:43:40 [notice] 1#1: using the "epoll" event method
+2021/10/12 11:43:40 [notice] 1#1: nginx/1.21.3
+2021/10/12 11:43:40 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 11:43:40 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 11:43:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 11:43:40 [notice] 1#1: start worker processes
+2021/10/12 11:43:40 [notice] 1#1: start worker process 23
+2021/10/12 11:43:40 [notice] 1#1: start worker process 24
+2021/10/12 11:43:40 [notice] 1#1: start worker process 25
+2021/10/12 11:43:40 [notice] 1#1: start worker process 26
+2021/10/12 11:47:13 [error] 23#23: *2 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.28.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.28.0.8:9000", host: "hello.test:8000"
+2021/10/12 11:50:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 11:50:05 [notice] 24#24: gracefully shutting down
+2021/10/12 11:50:05 [notice] 24#24: exiting
+2021/10/12 11:50:05 [notice] 23#23: gracefully shutting down
+2021/10/12 11:50:05 [notice] 26#26: gracefully shutting down
+2021/10/12 11:50:05 [notice] 26#26: exiting
+2021/10/12 11:50:05 [notice] 25#25: gracefully shutting down
+2021/10/12 11:50:05 [notice] 24#24: exit
+2021/10/12 11:50:05 [notice] 23#23: exiting
+2021/10/12 11:50:05 [notice] 23#23: exit
+2021/10/12 11:50:05 [notice] 26#26: exit
+2021/10/12 11:50:05 [notice] 25#25: exiting
+2021/10/12 11:50:05 [notice] 25#25: exit
+2021/10/12 11:50:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 11:50:05 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 11:50:05 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 11:50:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 11:50:05 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 11:50:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 11:50:05 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 11:50:05 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 11:50:05 [notice] 1#1: exit
+2021/10/12 11:59:47 [notice] 1#1: using the "epoll" event method
+2021/10/12 11:59:47 [notice] 1#1: nginx/1.21.3
+2021/10/12 11:59:47 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 11:59:47 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 11:59:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 11:59:47 [notice] 1#1: start worker processes
+2021/10/12 11:59:47 [notice] 1#1: start worker process 22
+2021/10/12 11:59:47 [notice] 1#1: start worker process 23
+2021/10/12 11:59:47 [notice] 1#1: start worker process 24
+2021/10/12 11:59:47 [notice] 1#1: start worker process 25
+2021/10/12 12:01:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 12:01:05 [notice] 22#22: gracefully shutting down
+2021/10/12 12:01:05 [notice] 23#23: gracefully shutting down
+2021/10/12 12:01:05 [notice] 24#24: gracefully shutting down
+2021/10/12 12:01:05 [notice] 25#25: gracefully shutting down
+2021/10/12 12:01:05 [notice] 22#22: exiting
+2021/10/12 12:01:05 [notice] 23#23: exiting
+2021/10/12 12:01:05 [notice] 24#24: exiting
+2021/10/12 12:01:05 [notice] 24#24: exit
+2021/10/12 12:01:05 [notice] 25#25: exiting
+2021/10/12 12:01:05 [notice] 22#22: exit
+2021/10/12 12:01:05 [notice] 23#23: exit
+2021/10/12 12:01:05 [notice] 25#25: exit
+2021/10/12 12:01:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 12:01:05 [notice] 1#1: worker process 22 exited with code 0
+2021/10/12 12:01:05 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 12:01:05 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 12:01:05 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 12:01:05 [notice] 1#1: exit
+2021/10/12 12:01:14 [notice] 1#1: using the "epoll" event method
+2021/10/12 12:01:14 [notice] 1#1: nginx/1.21.3
+2021/10/12 12:01:14 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 12:01:14 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 12:01:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 12:01:14 [notice] 1#1: start worker processes
+2021/10/12 12:01:14 [notice] 1#1: start worker process 23
+2021/10/12 12:01:14 [notice] 1#1: start worker process 24
+2021/10/12 12:01:14 [notice] 1#1: start worker process 25
+2021/10/12 12:01:14 [notice] 1#1: start worker process 26
+2021/10/12 12:03:16 [error] 23#23: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.29.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.4:9000", host: "hello.test:8000"
+2021/10/12 12:04:54 [error] 23#23: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.29.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.4:9000", host: "hello.test:8000"
+2021/10/12 12:09:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 12:09:18 [notice] 24#24: gracefully shutting down
+2021/10/12 12:09:18 [notice] 23#23: gracefully shutting down
+2021/10/12 12:09:18 [notice] 23#23: exiting
+2021/10/12 12:09:18 [notice] 25#25: gracefully shutting down
+2021/10/12 12:09:18 [notice] 25#25: exiting
+2021/10/12 12:09:18 [notice] 24#24: exiting
+2021/10/12 12:09:18 [notice] 24#24: exit
+2021/10/12 12:09:18 [notice] 23#23: exit
+2021/10/12 12:09:18 [notice] 25#25: exit
+2021/10/12 12:09:18 [notice] 26#26: gracefully shutting down
+2021/10/12 12:09:18 [notice] 26#26: exiting
+2021/10/12 12:09:18 [notice] 26#26: exit
+2021/10/12 12:09:18 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 12:09:18 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 12:09:18 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 12:09:18 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 12:09:18 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 12:09:18 [notice] 1#1: exit
+2021/10/12 12:14:02 [notice] 1#1: using the "epoll" event method
+2021/10/12 12:14:02 [notice] 1#1: nginx/1.21.3
+2021/10/12 12:14:02 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 12:14:02 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 12:14:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 12:14:02 [notice] 1#1: start worker processes
+2021/10/12 12:14:02 [notice] 1#1: start worker process 23
+2021/10/12 12:14:02 [notice] 1#1: start worker process 24
+2021/10/12 12:14:02 [notice] 1#1: start worker process 25
+2021/10/12 12:14:02 [notice] 1#1: start worker process 26
+2021/10/12 12:17:12 [error] 23#23: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.30.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.7:9000", host: "hello.test:8000"
+2021/10/12 12:18:14 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/b950d7" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/b950d7 HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:18:16 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/b950d7" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/b950d7 HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:18:18 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/b950d7" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/b950d7 HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:18:23 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/b950d7" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/b950d7 HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:18:32 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/b950d7" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/b950d7 HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:22:08 [error] 23#23: *7 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.30.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.7:9000", host: "hello.test:8000"
+2021/10/12 12:22:46 [error] 23#23: *7 open() "/var/www/hello.test/public/_wdt/7c98ba" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/7c98ba HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:22:48 [error] 23#23: *7 open() "/var/www/hello.test/public/_wdt/7c98ba" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/7c98ba HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:22:51 [error] 23#23: *7 open() "/var/www/hello.test/public/_wdt/7c98ba" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/7c98ba HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:22:56 [error] 23#23: *7 open() "/var/www/hello.test/public/_wdt/7c98ba" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/7c98ba HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:23:05 [error] 23#23: *7 open() "/var/www/hello.test/public/_wdt/7c98ba" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/7c98ba HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:33:27 [error] 23#23: *13 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.30.0.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.7:9000", host: "hello.test:8000"
+2021/10/12 12:37:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 12:37:27 [notice] 23#23: gracefully shutting down
+2021/10/12 12:37:27 [notice] 24#24: gracefully shutting down
+2021/10/12 12:37:27 [notice] 26#26: gracefully shutting down
+2021/10/12 12:37:27 [notice] 25#25: gracefully shutting down
+2021/10/12 12:37:27 [notice] 23#23: exiting
+2021/10/12 12:37:27 [notice] 24#24: exiting
+2021/10/12 12:37:27 [notice] 26#26: exiting
+2021/10/12 12:37:27 [notice] 25#25: exiting
+2021/10/12 12:37:27 [notice] 23#23: exit
+2021/10/12 12:37:27 [notice] 24#24: exit
+2021/10/12 12:37:27 [notice] 26#26: exit
+2021/10/12 12:37:27 [notice] 25#25: exit
+2021/10/12 12:37:27 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 12:37:27 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 12:37:27 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 12:37:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 12:37:27 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 12:37:27 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 12:37:27 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 12:37:27 [notice] 1#1: exit
+2021/10/12 12:37:31 [notice] 1#1: using the "epoll" event method
+2021/10/12 12:37:31 [notice] 1#1: nginx/1.21.3
+2021/10/12 12:37:31 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 12:37:31 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 12:37:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 12:37:31 [notice] 1#1: start worker processes
+2021/10/12 12:37:31 [notice] 1#1: start worker process 23
+2021/10/12 12:37:31 [notice] 1#1: start worker process 24
+2021/10/12 12:37:31 [notice] 1#1: start worker process 25
+2021/10/12 12:37:31 [notice] 1#1: start worker process 26
+2021/10/12 12:37:54 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/9a805e" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/9a805e HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:37:56 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/9a805e" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/9a805e HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:37:59 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/9a805e" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/9a805e HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:38:04 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/9a805e" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/9a805e HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"
+2021/10/12 12:38:13 [error] 23#23: *1 open() "/var/www/hello.test/public/_wdt/9a805e" failed (2: No such file or directory), client: 172.30.0.1, server: hello.test, request: "GET /_wdt/9a805e HTTP/1.1", host: "hello.test:8000", referrer: "http://hello.test:8000/"

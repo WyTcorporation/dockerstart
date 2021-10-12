@@ -37,19 +37,16 @@ services:
   mysql:
     image: mysql:8.0
     ports:
-      - "3307:3307"
+      - 3306:3306
     volumes:
       - ./mysql:/var/lib/mysql
     # задаем пароль для root пользователя
     environment:
-      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: symfony
   mongo:
     image: mongo
-    ports:
-      - "3308:3308"
-    volumes:
-      - ./mongo:/var/lib/mongo
-    # задаем пароль для root пользователя
+    restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
