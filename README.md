@@ -18,18 +18,14 @@ http://hello.test:8000/
 //mysql
 http://localhost:8183/
 
-      MYSQL_USERNAME: root
-      MYSQL_ROOT_PASSWORD: secret
+MYSQL_USERNAME: root
+MYSQL_ROOT_PASSWORD: secret
 
 //mongo
 http://localhost:8081/
 MONGO_INITDB_ROOT_USERNAME: root
 MONGO_INITDB_ROOT_PASSWORD: example
 
-//mongo
-http://localhost:8081/
-MONGO_INITDB_ROOT_USERNAME: root
-MONGO_INITDB_ROOT_PASSWORD: example
 
 //Устанавливаем
 docker-compose up
@@ -41,3 +37,14 @@ docker-compose up --build -d
 docker-compose down
 //логи
 docker-compose logs -f
+
+docker start docker2
+
+docker stop docker2
+
+docker-compose exec php bash
+
+
+docker pull dunglas/mercure
+
+composer require symfony/polyfill-intl-messageformatter

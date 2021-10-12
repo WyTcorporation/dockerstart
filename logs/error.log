@@ -895,3 +895,132 @@
 2021/10/12 15:02:23 [notice] 1#1: start worker process 24
 2021/10/12 15:02:23 [notice] 1#1: start worker process 25
 2021/10/12 15:02:23 [notice] 1#1: start worker process 26
+2021/10/12 16:06:25 [error] 23#23: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.96.1, server: hello.test, request: "GET /login HTTP/1.1", upstream: "fastcgi://192.168.96.5:9000", host: "hello.test:8000"
+2021/10/12 17:08:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 17:08:56 [notice] 23#23: gracefully shutting down
+2021/10/12 17:08:56 [notice] 25#25: gracefully shutting down
+2021/10/12 17:08:56 [notice] 26#26: gracefully shutting down
+2021/10/12 17:08:56 [notice] 24#24: gracefully shutting down
+2021/10/12 17:08:56 [notice] 23#23: exiting
+2021/10/12 17:08:56 [notice] 25#25: exiting
+2021/10/12 17:08:56 [notice] 26#26: exiting
+2021/10/12 17:08:56 [notice] 24#24: exiting
+2021/10/12 17:08:56 [notice] 23#23: exit
+2021/10/12 17:08:56 [notice] 25#25: exit
+2021/10/12 17:08:56 [notice] 26#26: exit
+2021/10/12 17:08:56 [notice] 24#24: exit
+2021/10/12 17:08:56 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 17:08:56 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 17:08:56 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 17:08:56 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 17:08:56 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 17:08:56 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/12 17:08:56 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 17:08:56 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 17:08:56 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 17:08:56 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 17:08:56 [notice] 1#1: exit
+2021/10/12 17:09:03 [notice] 1#1: using the "epoll" event method
+2021/10/12 17:09:03 [notice] 1#1: nginx/1.21.3
+2021/10/12 17:09:03 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 17:09:03 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 17:09:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 17:09:03 [notice] 1#1: start worker processes
+2021/10/12 17:09:03 [notice] 1#1: start worker process 23
+2021/10/12 17:09:03 [notice] 1#1: start worker process 24
+2021/10/12 17:09:03 [notice] 1#1: start worker process 25
+2021/10/12 17:09:03 [notice] 1#1: start worker process 26
+2021/10/12 17:22:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 17:22:20 [notice] 23#23: gracefully shutting down
+2021/10/12 17:22:20 [notice] 25#25: gracefully shutting down
+2021/10/12 17:22:20 [notice] 25#25: exiting
+2021/10/12 17:22:20 [notice] 26#26: gracefully shutting down
+2021/10/12 17:22:20 [notice] 26#26: exiting
+2021/10/12 17:22:20 [notice] 23#23: exiting
+2021/10/12 17:22:20 [notice] 25#25: exit
+2021/10/12 17:22:20 [notice] 26#26: exit
+2021/10/12 17:22:20 [notice] 23#23: exit
+2021/10/12 17:22:20 [notice] 24#24: gracefully shutting down
+2021/10/12 17:22:20 [notice] 24#24: exiting
+2021/10/12 17:22:20 [notice] 24#24: exit
+2021/10/12 17:22:21 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/12 17:22:21 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 17:22:21 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 17:22:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 17:22:21 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 17:22:21 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 17:22:21 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 17:22:21 [notice] 1#1: exit
+2021/10/12 17:28:39 [notice] 1#1: using the "epoll" event method
+2021/10/12 17:28:39 [notice] 1#1: nginx/1.21.3
+2021/10/12 17:28:39 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 17:28:39 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 17:28:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 17:28:39 [notice] 1#1: start worker processes
+2021/10/12 17:28:39 [notice] 1#1: start worker process 22
+2021/10/12 17:28:39 [notice] 1#1: start worker process 23
+2021/10/12 17:28:39 [notice] 1#1: start worker process 24
+2021/10/12 17:28:39 [notice] 1#1: start worker process 25
+2021/10/12 17:50:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 17:50:31 [notice] 23#23: gracefully shutting down
+2021/10/12 17:50:31 [notice] 25#25: gracefully shutting down
+2021/10/12 17:50:31 [notice] 24#24: gracefully shutting down
+2021/10/12 17:50:31 [notice] 22#22: gracefully shutting down
+2021/10/12 17:50:31 [notice] 23#23: exiting
+2021/10/12 17:50:31 [notice] 25#25: exiting
+2021/10/12 17:50:31 [notice] 24#24: exiting
+2021/10/12 17:50:31 [notice] 22#22: exiting
+2021/10/12 17:50:31 [notice] 23#23: exit
+2021/10/12 17:50:31 [notice] 25#25: exit
+2021/10/12 17:50:31 [notice] 24#24: exit
+2021/10/12 17:50:31 [notice] 22#22: exit
+2021/10/12 17:50:31 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 17:50:31 [notice] 1#1: worker process 22 exited with code 0
+2021/10/12 17:50:31 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 17:50:31 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 17:50:31 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 17:50:31 [notice] 1#1: exit
+2021/10/12 17:50:44 [notice] 1#1: using the "epoll" event method
+2021/10/12 17:50:44 [notice] 1#1: nginx/1.21.3
+2021/10/12 17:50:44 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 17:50:44 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 17:50:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 17:50:44 [notice] 1#1: start worker processes
+2021/10/12 17:50:44 [notice] 1#1: start worker process 23
+2021/10/12 17:50:44 [notice] 1#1: start worker process 24
+2021/10/12 17:50:44 [notice] 1#1: start worker process 25
+2021/10/12 17:50:44 [notice] 1#1: start worker process 26
+2021/10/12 18:01:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/12 18:01:44 [notice] 23#23: gracefully shutting down
+2021/10/12 18:01:44 [notice] 24#24: gracefully shutting down
+2021/10/12 18:01:44 [notice] 26#26: gracefully shutting down
+2021/10/12 18:01:44 [notice] 25#25: gracefully shutting down
+2021/10/12 18:01:44 [notice] 25#25: exiting
+2021/10/12 18:01:44 [notice] 23#23: exiting
+2021/10/12 18:01:44 [notice] 24#24: exiting
+2021/10/12 18:01:44 [notice] 26#26: exiting
+2021/10/12 18:01:44 [notice] 25#25: exit
+2021/10/12 18:01:44 [notice] 23#23: exit
+2021/10/12 18:01:44 [notice] 24#24: exit
+2021/10/12 18:01:44 [notice] 26#26: exit
+2021/10/12 18:01:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/12 18:01:44 [notice] 1#1: worker process 26 exited with code 0
+2021/10/12 18:01:44 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 18:01:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/12 18:01:44 [notice] 1#1: worker process 23 exited with code 0
+2021/10/12 18:01:44 [notice] 1#1: worker process 24 exited with code 0
+2021/10/12 18:01:44 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/12 18:01:44 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/12 18:01:44 [notice] 1#1: worker process 25 exited with code 0
+2021/10/12 18:01:44 [notice] 1#1: exit
+2021/10/12 18:22:03 [notice] 1#1: using the "epoll" event method
+2021/10/12 18:22:03 [notice] 1#1: nginx/1.21.3
+2021/10/12 18:22:03 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/12 18:22:03 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/10/12 18:22:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/12 18:22:03 [notice] 1#1: start worker processes
+2021/10/12 18:22:03 [notice] 1#1: start worker process 23
+2021/10/12 18:22:03 [notice] 1#1: start worker process 24
+2021/10/12 18:22:03 [notice] 1#1: start worker process 25
+2021/10/12 18:22:03 [notice] 1#1: start worker process 26
+2021/10/12 18:34:26 [error] 23#23: *80 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.128.1, server: hello.test, request: "POST /profile/create/product HTTP/1.1", upstream: "fastcgi://192.168.128.6:9000", host: "hello.test:8000", referrer: "http://hello.test:8000/profile/create/product"

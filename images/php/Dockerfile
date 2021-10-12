@@ -5,7 +5,9 @@ FROM php:7.4-fpm
 # В данном случае мы установим некоторые зависимости и модули PHP.
 # Для установки модулей используем команду docker-php-ext-install.
 # На каждый RUN создается новый слой в образе, поэтому рекомендуется объединять команды.
+
 RUN apt-get update && apt-get install -y \
+        libicu-dev\
         curl \
         wget \
         git \
@@ -18,14 +20,17 @@ RUN apt-get update && apt-get install -y \
         libzip-dev \
         libxml2-dev \
         librabbitmq-dev \
-	libssl-dev \
+	    libssl-dev \
+        zlib1g-dev \
         vim \
         unzip \
     && pecl install mcrypt-1.0.3 \
-    && docker-php-ext-install -j$(nproc) iconv \
+    && docker-php-ext-install -j$(nproc)  \
+        iconv \
         mbstring \
         mysqli \
         pdo_mysql \
+        intl \
 #          bcmath\
 #          bz2\
 #          calendar\
@@ -98,7 +103,12 @@ RUN pecl install amqp && docker-php-ext-enable amqp
 
 RUN pecl install redis-5.1.1 \
     && pecl install xdebug-2.8.1 \
-    && docker-php-ext-enable redis xdebug
+    && docker-php-ext-enable redis xdebug \
+
+#RUN apt-get -y update \
+#&& apt-get install -y zlib1g-dev libicu-dev g++ \
+#&& docker-php-ext-configure intl \
+#&& docker-php-ext-install intl
 
 # Куда же без composer'а.
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
