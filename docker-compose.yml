@@ -19,21 +19,21 @@ services:
     build: ./images/php
     # этот образ будет общаться с mysql
     links:
-      - mariadb
+      #- mariadb
       - mysql
       - mongo
     # монтируем директорию с проектами
     volumes:
       - ./www:/var/www
-#  mariadb:
-#    image: mariadb
-#    ports:
-#      - "3306:3306"
-#    volumes:
-#      - ./mariadb:/var/lib/mariadb
-#    # задаем пароль для root пользователя
-#    environment:
-#      MYSQL_ROOT_PASSWORD: secret
+  #  mariadb:
+  #    image: mariadb
+  #    ports:
+  #      - "3306:3306"
+  #    volumes:
+  #      - ./mariadb:/var/lib/mariadb
+  #    # задаем пароль для root пользователя
+  #    environment:
+  #      MYSQL_ROOT_PASSWORD: secret
   mysql:
     image: mysql:8.0
     ports:
@@ -47,31 +47,33 @@ services:
   mongo:
     image: mongo
     restart: always
+    ports:
+       - 27017:27017
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
       MONGO_INITDB_ROOT_PASSWORD: example
-#  postgres:
-#    image: postgres
-#    restart: always
-#    ports:
-#      - "3309:3309"
-#    volumes:
-#      - ./postgres:/var/lib/postgres
-#    environment:
-#      POSTGRES_PASSWORD: selectel
-#      POSTGRES_USER: selectel
-#      POSTGRES_DB: selectel
-#  node:
-#    image: node
-#    user: node
-#    working_dir: /www/hello.test
-#    environment:
-#       NODE_ENV: production
-#    volumes:
-#      - ./:/node/app
-#    expose:
-#      - 8082:8082
-#    command: "npm start"
+  #  postgres:
+  #    image: postgres
+  #    restart: always
+  #    ports:
+  #      - "3309:3309"
+  #    volumes:
+  #      - ./postgres:/var/lib/postgres
+  #    environment:
+  #      POSTGRES_PASSWORD: selectel
+  #      POSTGRES_USER: selectel
+  #      POSTGRES_DB: selectel
+  #  node:
+  #    image: node
+  #    user: node
+  #    working_dir: /www/hello.test
+  #    environment:
+  #       NODE_ENV: production
+  #    volumes:
+  #      - ./:/node/app
+  #    expose:
+  #      - 8082:8082
+  #    command: "npm start"
   pma:
     # используем последний стабильный образ phpmyadmin
     image: phpmyadmin/phpmyadmin
@@ -93,7 +95,7 @@ services:
     environment:
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
       ME_CONFIG_MONGODB_ADMINPASSWORD: example
-      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
+      ME_CONFIG_MONGODB_URL: mongodb://mongoadmin:example@mongo:27017/
   adminer:
     image: adminer
     restart: always

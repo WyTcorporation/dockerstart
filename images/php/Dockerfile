@@ -17,6 +17,8 @@ RUN apt-get update && apt-get install -y \
         libpng-dev \
         libzip-dev \
         libxml2-dev \
+        librabbitmq-dev \
+	libssl-dev \
         vim \
         unzip \
     && pecl install mcrypt-1.0.3 \
@@ -92,6 +94,7 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-enable mcrypt
 
 RUN pecl install mongodb && docker-php-ext-enable mongodb
+RUN pecl install amqp && docker-php-ext-enable amqp 
 
 RUN pecl install redis-5.1.1 \
     && pecl install xdebug-2.8.1 \
