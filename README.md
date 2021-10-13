@@ -42,9 +42,10 @@ docker start docker2
 
 docker stop docker2
 
+//Командная строка
 docker-compose exec php bash
 
-
+//для симфони
 docker pull dunglas/mercure
 
 composer require symfony/polyfill-intl-messageformatter
